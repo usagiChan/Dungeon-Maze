@@ -1,0 +1,44 @@
+h1{
+	font: 14px Verdana;
+}
+
+div{
+	border: solid red 1px;
+}
+
+#select{
+	height:500px;
+	width:500px;
+}
+
+.pj{
+	height:100px;
+	width:100px;
+	float: left;
+	margin-top:70px;
+	margin-left:48px;
+}
+
+#instruccion{
+	height:50px;
+	width:300px;
+	margin: 0 auto;
+	margin-top:70px;
+	text-align:center;
+	font: 16px Verdana;
+}
+
+.datos{
+	height:100px;
+	width:95px;
+	float: left;
+	margin-top:10px;
+	margin-left:48px;
+	padding-left:5px;
+	font: 12px Verdana;
+}
+
+#room{/*Room*/
+	height:500px;
+	width:500px;
+}
