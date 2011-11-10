@@ -6,12 +6,13 @@ div{
 	border: solid red 1px;
 }
 
-#select{
+#select{/*index*/
 	height:500px;
 	width:500px;
+	margin: 0 auto;
 }
 
-.pj{
+.pj{/*index*/
 	height:100px;
 	width:100px;
 	float: left;
@@ -19,7 +20,7 @@ div{
 	margin-left:48px;
 }
 
-#instruccion{
+#instruccion{/*index*/
 	height:50px;
 	width:300px;
 	margin: 0 auto;
@@ -28,7 +29,7 @@ div{
 	font: 16px Verdana;
 }
 
-.datos{
+.datos{/*index*/
 	height:100px;
 	width:95px;
 	float: left;
@@ -38,7 +39,24 @@ div{
 	font: 12px Verdana;
 }
 
-#room{/*Room*/
+#formulario{
+	height:50px;
+	width:500px;
+	float: left;
+	text-align:center;
+}
+ input{
+	float:left;
+	margin-left:75px;
+	margin-right:75px;
+ }
+ #boton{
+	margin-left:218px;
+ }
+
+
+#room{/*ROOM*/
 	height:500px;
 	width:500px;
+	margin: 0 auto;
 }
