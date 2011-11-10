@@ -1,1 +1,1 @@
-Repositorio del proyecto Dungeon-Maze para el proyecto final de Desarrollo de Software IV - prueba 01
+Repositorio del proyecto Dungeon-Maze para el proyecto final de Desarrollo de Software IV - prueba 02
