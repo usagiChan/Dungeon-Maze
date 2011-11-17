@@ -10,3 +10,4 @@
 	document.personaje.src= pjsrc;
 
 </script>
+
