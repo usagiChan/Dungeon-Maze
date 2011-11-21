@@ -1,0 +1,274 @@
+div{
+	border: 1px solid red;
+}
+
+#info{
+	height: 200px;
+	width: 200px;
+	border: 1px solid black;
+	float: left;
+	position: absolute;
+}
+
+#start{
+	height: 50px;
+	width: 100px;
+	border: 2px solid black;
+	float: left;
+	position: relative;
+	margin: 50px;
+	background-color: gray;
+	text-align: center;
+	cursor: pointer;
+}
+
+#room{
+	height: 800px;
+	width: 800px;
+	border: 2px solid red;
+	position: relative;
+	margin-left: 263px;
+}
+
+#fight{
+	height: 550px;
+	width: 650px;
+	position: relative;
+	margin: 0 auto;
+	border: 1px solid black;
+	visibility: hidden;
+}
+
+#batalla{
+	height: 400px;
+	width: 400px;
+	float:left;
+	border: 1px solid red;
+	position: absolute;
+}
+#texto{
+	height: 400px;
+	width: 245px;
+	float:right;
+}
+#dados{
+	height: 150px;
+	width: 650px;
+	float:left;
+}
+
+#boton{
+	float:right;
+	margin-top:65px;
+	margin-right:100px;
+}
+
+#main{
+	visibility: visible;
+}
+
+.pared{
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	float: left;
+	background-color: black;
+	border: 1px solid black;
+}
+
+#cont{
+	height: 800px;
+	width: 800px;
+	margin-left: 263px;
+	border: 2px solid blue;
+	position: relative;
+	float: left;
+}
+
+
+#a{
+	height: 100px;
+	width: 100px;
+	border: 1px solid green;
+	position: absolute;
+	background-color: pink;
+	top: 600px;
+	left: 0px;
+}
+
+.ene{
+	height: 100px;
+	width: 100px;
+	border: 1px solid green;
+	position: absolute;
+	background: url('images/gob.png');
+	float: left;
+}
+
+#llave{
+	height: 100px;
+	width: 100px;
+	border: 1px solid green;
+	position: absolute;
+	background: url('images/llave.png');
+	float: left;
+	top: 0px;
+	left: 0px;
+}
+
+#door{
+	height: 100px;
+	width: 100px;
+	border: 1px solid green;
+	position: absolute;
+	background: url('images/door.png');
+	float: left;
+	top: 300px;
+	left: 400px;
+	visibility: hidden;
+}
+
+#e0{
+	top: 700px;
+	left: 400px;
+}
+
+
+#e1{
+	top: 200px;
+	left: 0px;
+}
+
+
+#e2{
+	top: 400px;
+	left: 700px;
+}
+
+
+#b{
+	top: 0px;
+	left: 300px;
+}
+
+#c{
+	top: 0px;
+	left: 700px;
+}
+
+#d{
+	top: 100px;
+	left: 0px;
+}
+
+#e{
+	top: 100px;
+	left: 200px;
+}
+
+#f{
+	top: 100px;
+	left: 300px;
+}
+
+#g{
+	top: 100px;
+	left: 500px;
+}
+
+#h{
+	top: 200px;
+	left: 300px;
+}
+
+#i{
+	top: 200px;
+	left: 600px;
+}
+
+#j{
+	top: 300px;
+	left: 100px;
+}
+
+#k{
+	top: 300px;
+	left: 200px;
+}
+
+#l{
+	top: 300px;
+	left: 300px;
+}
+
+#m{
+	top: 300px;
+	left: 500px;
+}
+
+#n{
+	top: 400px;
+	left: 300px;
+}
+
+#o{
+	top: 400px;
+	left: 400px;
+}
+
+#p{
+	top: 400px;
+	left: 600px;
+}
+
+#q{
+	top: 500px;
+	left: 0px;
+}
+
+#r{
+	top: 500px;
+	left: 100px;
+}
+
+#s{
+	top: 500px;
+	left: 300px;
+}
+
+#t{
+	top: 600px;
+	left: 100px;
+}
+
+#u{
+	top: 600px;
+	left: 300px;
+}
+
+#v{
+	top: 600px;
+	left: 500px;
+}
+
+#w{
+	top: 700px;
+	left: 600px;
+}
+
+#pj{
+	height: 100px;
+	width: 100px;
+	border: 1px solid green;
+	float: left;
+	position: absolute;
+	top: 100px;
+	left: 20px;
+}
+
+#gob{
+	float: left;
+	left: 280px;
+	top: 100px;
+}
+
