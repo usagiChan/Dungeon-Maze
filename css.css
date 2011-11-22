@@ -10,6 +10,14 @@ div{
 	position: absolute;
 }
 
+#info2{
+	height: 200px;
+	width: 200px;
+	border: 1px solid black;
+	float: left;
+	position: absolute;
+}
+
 #start{
 	height: 50px;
 	width: 100px;
@@ -22,7 +30,27 @@ div{
 	cursor: pointer;
 }
 
+#start2{
+	height: 50px;
+	width: 100px;
+	border: 2px solid black;
+	float: left;
+	position: relative;
+	margin: 50px;
+	background-color: gray;
+	text-align: center;
+	cursor: pointer;
+}
+
 #room{
+	height: 800px;
+	width: 800px;
+	border: 2px solid red;
+	position: relative;
+	margin-left: 263px;
+}
+
+#room2{
 	height: 800px;
 	width: 800px;
 	border: 2px solid red;
@@ -270,5 +298,181 @@ div{
 	float: left;
 	left: 280px;
 	top: 100px;
+}
+
+/*room2*/
+
+
+#llave2{
+	height: 100px;
+	width: 100px;
+	border: 1px solid green;
+	position: absolute;
+	background: url('images/llave.png');
+	float: left;
+	top: 600px;
+	left: 0px;
+}
+
+#door2{
+	height: 100px;
+	width: 100px;
+	border: 1px solid green;
+	position: absolute;
+	background: url('images/door.png');
+	float: left;
+	top: 400px;
+	left: 0px;
+	visibility: hidden;
+}
+
+#en0{
+	top: 200px;
+	left: 500px;
+}
+
+
+#en1{
+	top: 400px;
+	left: 400px;
+}
+
+
+#en2{
+	top: 700px;
+	left: 500px;
+}
+
+
+#b2{
+	top: 0px;
+	left: 300px;
+}
+
+#c2{
+	top: 0px;
+	left: 400px;
+}
+
+#d2{
+	top: 100px;
+	left: 100px;
+}
+
+#e2{
+	top: 100px;
+	left: 600px;
+}
+
+#f2{
+	top: 100px;
+	left: 700px;
+}
+
+#g2{
+	top: 200px;
+	left: 200px;
+}
+
+#h2{
+	top: 200px;
+	left: 300px;
+}
+
+#i2{
+	top: 200px;
+	left: 400px;
+}
+
+#j2{
+	top: 300px;
+	left: 0px;
+}
+
+#k2{
+	top: 300px;
+	left: 300px;
+}
+
+#l2{
+	top: 300px;
+	left: 500px;
+}
+
+#m2{
+	top: 300px;
+	left: 600px;
+}
+
+#n2{
+	top: 700px;
+	left: 400px;
+}
+
+#o2{
+	top: 400px;
+	left: 600px;
+}
+
+#p2{
+	top: 500px;
+	left: 0px;
+}
+
+#q2{
+	top: 500px;
+	left: 100px;
+}
+
+#r2{
+	top: 500px;
+	left: 200px;
+}
+
+#s2{
+	top: 500px;
+	left: 400px;
+}
+
+#t2{
+	top: 600px;
+	left: 200px;
+}
+
+#u2{
+	top: 600px;
+	left: 400px;
+}
+
+#v2{
+	top: 600px;
+	left: 600px;
+}
+
+
+
+#cont2{
+	height: 800px;
+	width: 800px;
+	margin-left: 263px;
+	border: 2px solid blue;
+	position: relative;
+	float: left;
+}
+
+
+#a2{
+	height: 100px;
+	width: 100px;
+	border: 1px solid green;
+	position: absolute;
+	background-color: pink;
+	top: 0px;
+	left: 700px;
+}
+
+#main2{
+	visibility: hidden;
+	float:left;
 }
 
