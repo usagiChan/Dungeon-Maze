@@ -1,4 +1,4 @@
-<html>
+sa<html>
 <head>
 	<link rel="stylesheet" href="css.css" type="text/css" />
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
@@ -41,7 +41,8 @@
 	var enemigoV= "#e";
 	var llveid = "#llave";
 	var puerta = "#door";
-	
+	var enemxLvl = "#gob";
+	var cant=0;
 	
 	
 	//personaje + atributos
@@ -98,10 +99,16 @@
 					 llveX = 0;
 					 llveY = 600;
 					 enemigoV = "#en";
+					 enemxLvl = "#orc";
 					 
 					 puerta = "#door2";
 					 llveid = "#llave2";
-					 enemigo = new enemigo(10,12,20,10);
+					 enemigo.ataque = 10;
+					 enemigo.defensa = 12;
+					 enemigo.vida = 20;
+					 enemigo.dano = 10;
+					 
+					 
 					 
 				}	
 				else {
@@ -153,11 +160,26 @@
 				$("#fight").css({"visibility": "visible"});
 				alert(contador);
 	
-				if(contador==2){
-					$("#gob").css({"background": "url('images/gob2.png')"});
+				if(lvl==0){
+					if(contador==2){
+						$("#gob").css({"background": "url('images/gob2.png')"});
+						cant=2;
+					}
+					if(contador==3){
+						$("#gob").css({"background": "url('images/gob3.png')"});
+						cant=3;
+					}
 				}
-				if(contador==3){
-					$("#gob").css({"background": "url('images/gob3.png')"});
+				else {
+					if(contador==1){$("#gob").css({"background": "url('images/orc.png')"});}
+					if(contador==2){
+						$("#gob").css({"background": "url('images/orc2.png')"});
+						cant=2;
+					}
+					if(contador==3){
+						$("#gob").css({"background": "url('images/orc3.png')"});
+						cant=3;
+					}
 				}
 			}
 		} 
@@ -301,8 +323,16 @@
 				existenciaEnemiga=existenciaEnemiga-1;				
 				x_ene[existenciaEnemiga] = 1000;
 				y_ene[existenciaEnemiga] = 1000;
-				enemigo.defensa=10;
-				enemigo.vida=10;
+				if(lvl==0){
+					enemigo.defensa=10;
+					enemigo.vida=10;
+					enemigo.ataque=5;
+					}
+				if(lvl==1){
+					enemigo.defensa=12;
+					enemigo.vida=20;
+					enemigo.ataque=10;
+						}
 				var chr = enemigoV+existenciaEnemiga;
 				$(chr).hide();
 				}
@@ -312,9 +342,12 @@
 				}
 		}
 		if(contador==2){
+				if(cant==2){
 				enemigo.defensa=enemigo.defensa*2;
 				enemigo.vida=enemigo.vida*2;
 				enemigo.ataque= enemigo.ataque*2;
+				cant=-1;
+				}
 				
 			if(enemigo.defensa>0){
 					enemigo.defensa=enemigo.defensa-(sum+tupj.ataque);
@@ -347,9 +380,16 @@
 						var chr = enemigoV+existenciaEnemiga+i;
 						$(chr).hide();
 					}}
-				enemigo.defensa=10;
-				enemigo.vida=10;
-				enemigo.ataque=5;
+				if(lvl==0){
+					enemigo.defensa=10;
+					enemigo.vida=10;
+					enemigo.ataque=5;
+					}
+				if(lvl==1){
+					enemigo.defensa=12;
+					enemigo.vida=20;
+					enemigo.ataque=10;
+						}
 				
 				}
 			if(tupj.vida<1){
@@ -358,9 +398,12 @@
 				}
 		}
 		if(contador==3){
-			enemigo.defensa=enemigo.defensa*2;
-				enemigo.vida=enemigo.vida*2;
-				enemigo.ataque= enemigo.ataque*2;
+			if(cant==3){
+				enemigo.defensa=enemigo.defensa*3;
+				enemigo.vida=enemigo.vida*3;
+				enemigo.ataque= enemigo.ataque*3;
+				cant=-1;
+				}
 				
 			if(enemigo.defensa>0){
 					enemigo.defensa=enemigo.defensa-(sum+tupj.ataque);
@@ -394,9 +437,17 @@
 						$(chr).hide();
 					}
 					}
-				enemigo.defensa=10;
-				enemigo.vida=10;
-				enemigo.ataque=5;
+				
+				if(lvl==0){
+					enemigo.defensa=10;
+					enemigo.vida=10;
+					enemigo.ataque=5;
+					}
+				if(lvl==1){
+					enemigo.defensa=12;
+					enemigo.vida=20;
+					enemigo.ataque=10;
+						}
 				
 				}
 			if(tupj.vida<1){
@@ -650,7 +701,7 @@
 		</div>
 		<div id="d2" class="pared">
 		</div>
-		<div id="e2" class="pared">
+		<div id="e2e" class="pared">
 		</div>
 		<div id="f2" class="pared">
 		</div>

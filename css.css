@@ -129,7 +129,6 @@ div{
 	width: 100px;
 	border: 1px solid green;
 	position: absolute;
-	background: url('images/gob.png');
 	float: left;
 }
 
@@ -159,18 +158,21 @@ div{
 #e0{
 	top: 700px;
 	left: 400px;
+	background: url('images/gob.png');
 }
 
 
 #e1{
 	top: 200px;
 	left: 0px;
+	background: url('images/gob.png');
 }
 
 
 #e2{
 	top: 400px;
 	left: 700px;
+	background: url('images/gob.png');
 }
 
 
@@ -298,6 +300,14 @@ div{
 	float: left;
 	left: 280px;
 	top: 100px;
+	background: url('images/gob.png');
+}
+
+#orc{
+	float: left;
+	left: 280px;
+	top: 100px;
+	background: url('images/orc.png');
 }
 
 /*room2*/
@@ -329,18 +339,21 @@ div{
 #en0{
 	top: 200px;
 	left: 500px;
+	background: url('images/orc.png');
 }
 
 
 #en1{
 	top: 400px;
 	left: 400px;
+		background: url('images/orc.png');
 }
 
 
 #en2{
 	top: 700px;
 	left: 500px;
+	background: url('images/orc.png');
 }
 
 
@@ -359,7 +372,7 @@ div{
 	left: 100px;
 }
 
-#e2{
+#e2e{
 	top: 100px;
 	left: 600px;
 }
